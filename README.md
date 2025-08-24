@@ -1,6 +1,7 @@
 # Welcome to Reflex!
 
 <span style="background-color:yellow">Importante, para este proyecto el archivo chrome.js de lucide-react lo cambié de esta manera:</span>
+
  ````
 /**
  * @license lucide-react v0.539.0 - ISC
@@ -16,7 +17,7 @@ const Chrome = createLucideIcon("Chrome", __iconNode);
 
 export { __iconNode, Chrome as default };
 ````
-
+**El código de arriba no lo soluciona como tal pero es un workaround**
 **Otra cosa, cuando lo clones, hay que hacer**
 
 
