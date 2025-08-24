@@ -1,6 +1,12 @@
 # Welcome to Reflex!
 
-Importante, para este proyecto el archivo chrome.js de lucide-react
+**Importante, para este proyecto el archivo chrome.js de lucide-react**
+
+**Otra cosa, cuando lo clones, hay que hacer**
+
+**"reflex init" para crear el archivo .web de reflex**
+
+**y luego "reflex run" para levantarlo**
 
 
 
