@@ -1,8 +1,24 @@
 # Welcome to Reflex!
 
-**Importante, para este proyecto el archivo chrome.js de lucide-react**
+<span style="background-color:yellow">Importante, para este proyecto el archivo chrome.js de lucide-react lo cambié de esta manera:</span>
+ ````
+/**
+ * @license lucide-react v0.539.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+import createLucideIcon from '../createLucideIcon.js';
+
+const __iconNode = [];
+const Chrome = createLucideIcon("Chrome", __iconNode);
+
+export { __iconNode, Chrome as default };
+````
 
 **Otra cosa, cuando lo clones, hay que hacer**
+
 
 **"reflex init" para crear el archivo .web de reflex**
 
